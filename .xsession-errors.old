@@ -1,0 +1,112 @@
+Xsession: X session started for shifan at Sat  5 Oct 21:39:27 CEST 2024
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+xrdb: Can't open display ''
+xhost:  unable to open display ""
+dbus-update-activation-environment: setting USER=shifan
+dbus-update-activation-environment: setting TEXTDOMAIN=Linux-PAM
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=wayland
+dbus-update-activation-environment: setting HOME=/home/shifan
+dbus-update-activation-environment: setting DESKTOP_SESSION=LXDE-pi-wayfire
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LOGNAME=shifan
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting LANG=en_GB.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=LXDE-pi-wayfire
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/shifan
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=LXDE-pi-wayfire
+dbus-update-activation-environment: setting NO_AT_BRIDGE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/shifan
+II 05-10-24 21:39:27.971 - [src/main.cpp:280] Starting wayfire version 0.7.5
+II 05-10-24 21:39:27.980 - [libseat] [libseat/backend/seatd.c:64] Could not connect to socket /run/seatd.sock: No such file or directory
+II 05-10-24 21:39:27.980 - [libseat] [libseat/libseat.c:76] Backend 'seatd' failed to open seat, skipping
+II 05-10-24 21:39:28.015 - [libseat] [libseat/libseat.c:73] Seat opened with backend 'logind'
+II 05-10-24 21:39:28.016 - [backend/session/session.c:109] Successfully loaded libseat session
+II 05-10-24 21:39:28.018 - [backend/backend.c:220] Found 1 GPUs
+II 05-10-24 21:39:28.019 - [backend/drm/backend.c:186] Initializing DRM backend for /dev/dri/card1 (vc4)
+II 05-10-24 21:39:28.019 - [backend/drm/drm.c:242] Found 4 DRM CRTCs
+II 05-10-24 21:39:28.019 - [backend/drm/drm.c:200] Found 24 DRM planes
+II 05-10-24 21:39:28.054 - [render/egl.c:201] Supported EGL client extensions: EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_EXT_platform_base EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_EXT_platform_device EGL_EXT_platform_wayland EGL_KHR_platform_wayland EGL_EXT_platform_x11 EGL_KHR_platform_x11 EGL_EXT_platform_xcb EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EE 05-10-24 21:39:28.055 - [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+EE 05-10-24 21:39:28.055 - [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+II 05-10-24 21:39:29.496 - [render/egl.c:347] Using EGL 1.4
+II 05-10-24 21:39:29.496 - [render/egl.c:348] Supported EGL display extensions: EGL_ANDROID_blob_cache EGL_EXT_buffer_age EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_context_flush_control EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_WL_bind_wayland_display 
+II 05-10-24 21:39:29.496 - [render/egl.c:350] Supported EGL device extensions: EGL_EXT_device_drm
+II 05-10-24 21:39:29.496 - [render/egl.c:352] EGL vendor: Mesa Project
+II 05-10-24 21:39:29.528 - [render/gles2/renderer.c:727] Creating GLES2 renderer
+II 05-10-24 21:39:29.528 - [render/gles2/renderer.c:728] Using OpenGL ES 3.1 Mesa 23.2.1-1~bpo12+rpt3
+II 05-10-24 21:39:29.528 - [render/gles2/renderer.c:729] GL vendor: Broadcom
+II 05-10-24 21:39:29.528 - [render/gles2/renderer.c:730] GL renderer: V3D 7.1
+II 05-10-24 21:39:29.528 - [render/gles2/renderer.c:731] Supported GLES2 extensions: GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_texture_filter_anisotropic GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_format_BGRA8888 GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_mapbuffer GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_stencil8 GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_EXT_draw_instanced GL_EXT_texture_sRGB_decode GL_OES_EGL_image GL_OES_depth_texture GL_AMD_performance_monitor GL_OES_packed_depth_stencil GL_EXT_texture_type_2_10_10_10_REV GL_NV_conditional_render GL_OES_get_program_binary GL_APPLE_texture_max_level GL_EXT_discard_framebuffer GL_EXT_read_format_bgra GL_NV_pack_subimage GL_EXT_frag_depth GL_NV_fbo_color_attachments GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_array_object GL_ANGLE_pack_reverse_row_order GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_EXT_occlusion_query_boolean GL_EXT_texture_rg GL_EXT_unpack_subimage GL_NV_draw_buffers GL_NV_read_buffer GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_EXT_draw_buffers GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_NV_generate_mipmap_sRGB GL_NV_pixel_buffer_object GL_OES_depth_texture_cube_map GL_OES_required_internalformat GL_OES_surfaceless_context GL_EXT_color_buffer_float GL_EXT_debug_label GL_EXT_sRGB_write_control GL_EXT_separate_shader_objects GL_EXT_shader_implicit_conversions GL_EXT_shader_integer_mix GL_EXT_base_instance GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_copy_image GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_polygon_offset_clamp GL_EXT_primitive_bounding_box GL_EXT_shader_io_blocks GL_EXT_texture_border_clamp GL_EXT_texture_cube_map_array GL_EXT_texture_view GL_KHR_context_flush_control GL_NV_image_formats GL_NV_shader_noperspective_interpolation GL_OES_copy_image GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_primitive_bounding_box GL_OES_shader_io_blocks GL_OES_texture_border_clamp GL_OES_texture_cube_map_array GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_texture_view GL_EXT_buffer_storage GL_EXT_float_blend GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_KHR_no_error GL_KHR_texture_compression_astc_sliced_3d GL_OES_EGL_image_external_essl3 GL_OES_geometry_point_size GL_OES_geometry_shader GL_OES_shader_image_atomic GL_EXT_clear_texture GL_EXT_texture_compression_s3tc_srgb GL_MESA_shader_integer_functions GL_EXT_texture_mirror_clamp_to_edge GL_KHR_parallel_shader_compile GL_EXT_EGL_image_storage GL_MESA_framebuffer_flip_y GL_EXT_texture_query_lod GL_MESA_bgra 
+II 05-10-24 21:39:29.821 - [src/default-config-backend.cpp:101] Using config file: /home/shifan/.config/wayfire.ini
+II 05-10-24 21:39:29.821 - [src/file.cpp:576] Reading XML configuration options from directory /usr/share/wayfire/metadata
+II 05-10-24 21:39:29.822 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/fast-switcher.xml
+II 05-10-24 21:39:29.831 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/pixswitcher.xml
+II 05-10-24 21:39:29.832 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/window-rules.xml
+II 05-10-24 21:39:29.832 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/vswipe.xml
+II 05-10-24 21:39:29.833 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/fisheye.xml
+II 05-10-24 21:39:29.833 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/scale.xml
+II 05-10-24 21:39:29.833 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/cube.xml
+II 05-10-24 21:39:29.834 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/move.xml
+II 05-10-24 21:39:29.834 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/wrot.xml
+II 05-10-24 21:39:29.835 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/expo.xml
+II 05-10-24 21:39:29.835 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/autostart-static.xml
+II 05-10-24 21:39:29.835 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/winshadows.xml
+II 05-10-24 21:39:29.836 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/resize.xml
+II 05-10-24 21:39:29.836 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/pixdecor.xml
+II 05-10-24 21:39:29.836 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/autostart.xml
+II 05-10-24 21:39:29.837 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/extra-gestures.xml
+II 05-10-24 21:39:29.837 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/output.xml
+II 05-10-24 21:39:29.837 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/oswitch.xml
+II 05-10-24 21:39:29.838 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/alpha.xml
+II 05-10-24 21:39:29.838 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/workarounds.xml
+II 05-10-24 21:39:29.838 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/input.xml
+II 05-10-24 21:39:29.839 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/wobbly.xml
+II 05-10-24 21:39:29.839 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/wm-actions.xml
+II 05-10-24 21:39:29.840 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/idle.xml
+II 05-10-24 21:39:29.840 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/invert.xml
+II 05-10-24 21:39:29.840 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/grid.xml
+II 05-10-24 21:39:29.841 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/simple-tile.xml
+II 05-10-24 21:39:29.841 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/core.xml
+II 05-10-24 21:39:29.842 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/vswitch.xml
+II 05-10-24 21:39:29.842 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/blur.xml
+II 05-10-24 21:39:29.842 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/scale-title-filter.xml
+II 05-10-24 21:39:29.843 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/animate.xml
+II 05-10-24 21:39:29.843 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/preserve-output.xml
+II 05-10-24 21:39:29.844 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/command.xml
+II 05-10-24 21:39:29.844 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/zoom.xml
+II 05-10-24 21:39:29.844 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/input-device.xml
+II 05-10-24 21:39:29.845 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/place.xml
+II 05-10-24 21:39:29.845 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/switcher.xml
+II 05-10-24 21:39:29.845 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/decoration.xml
+II 05-10-24 21:39:30.076 - [backend/headless/backend.c:68] Creating headless backend
+II 05-10-24 21:39:30.076 - [backend/headless/backend.c:16] Starting headless backend
+II 05-10-24 21:39:30.134 - [src/main.cpp:355] Using socket name wayland-1
+II 05-10-24 21:39:30.197 - [src/core/seat/input-manager.cpp:46] handle new input: PixArt Dell MS116 USB Optical Mouse
+II 05-10-24 21:39:30.197 - [src/core/seat/input-manager.cpp:46] handle new input: pwr_button
+II 05-10-24 21:39:30.219 - [src/core/seat/input-manager.cpp:46] handle new input: vc4-hdmi-0
+II 05-10-24 21:39:30.224 - [src/core/seat/input-manager.cpp:46] handle new input: vc4-hdmi-0
+II 05-10-24 21:39:30.224 - [src/core/seat/input-manager.cpp:46] handle new input: vc4-hdmi-1
+II 05-10-24 21:39:30.229 - [src/core/seat/input-manager.cpp:46] handle new input: vc4-hdmi-1
+II 05-10-24 21:39:30.229 - [backend/drm/drm.c:1502] Scanning DRM connectors on /dev/dri/card1
+II 05-10-24 21:39:30.230 - [backend/drm/drm.c:1553] Found connector 'HDMI-A-1'
+II 05-10-24 21:39:30.231 - [backend/drm/drm.c:1553] Found connector 'HDMI-A-2'
+II 05-10-24 21:39:30.231 - [src/core/output-layout.cpp:1039] new output: NOOP-1
+II 05-10-24 21:39:30.231 - [src/core/output-layout.cpp:535] loaded mode auto
+II 05-10-24 21:39:30.231 - [src/core/output-layout.cpp:711] Couldn't find matching mode 1280x720@60 for output NOOP-1. Trying to use custom mode(might not work)
+EE 05-10-24 21:39:30.238 - [src/output/output.cpp:171] Get layout geometry for an invalid output!
+(type equals variant: [type: string, value: toplevel] | (type equals variant: [type: string, value: x-or] & focusable equals variant: [type: bool, value: 1]))
+type equals variant: [type: string, value: overlay]
+false
+false
+false
+app_id equals variant: [type: string, value: Kodi]
+(type equals variant: [type: string, value: toplevel] & floating equals variant: [type: bool, value: 1])
+EE 05-10-24 21:39:30.587 - [types/wlr_cursor.c:875] Cannot map device "pwr_button" to output (not found in this cursor)
+EE 05-10-24 21:39:30.587 - [types/wlr_cursor.c:875] Cannot map device "vc4-hdmi-0" to output (not found in this cursor)
+EE 05-10-24 21:39:30.587 - [types/wlr_cursor.c:875] Cannot map device "vc4-hdmi-1" to output (not found in this cursor)
